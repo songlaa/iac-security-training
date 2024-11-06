@@ -18,7 +18,7 @@ cd $LAB_ROOT/advanced/tfsec
 
 Create a file named `main.tf` with the following content:
 
-```bash
+```terraform
 provider "aws" {
   region = "us-east-1"
 }
