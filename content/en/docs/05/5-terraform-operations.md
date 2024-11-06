@@ -1,5 +1,5 @@
 ---
-title: "5.5. Terraform CLI"
+title: "Terraform CLI"
 weight: 55
 sectionnumber: 5.5
 ---

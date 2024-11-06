@@ -12,10 +12,11 @@ There tools to help detect common misconfigurations in terraform, on such tools 
 As you have learned, the Terraform state represents the applied objects that have been successfully applied. Here is the example from our first applied config:
 
 ```bash
-mkdir tfsec-lab && cd tfsec-lab
+mkdir $LAB_ROOT/advanced/tfsec
+cd $LAB_ROOT/advanced/tfsec
 ```
 
-Create a file named main.tf with the following content:
+Create a file named `main.tf` with the following content:
 
 ```bash
 provider "aws" {

@@ -21,7 +21,7 @@ Create a new file named `versions.tf` and add the following content:
 
 ```terraform
 terraform {
-  required_version = "= 1.0.5"
+  required_version = ">= 1.9.4"
 
   required_providers {
     random  = {

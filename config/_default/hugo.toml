@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "iac security Training"
+title = "IaC security Training"
 
 enableGitInfo = true
 
@@ -54,7 +54,7 @@ weight = 1
 [[Languages.en.menu.main]]
 weight = 10
 name = "songlaa gmbh"
-url = "https://www.songlaa.com"
+url = "https://songlaa.com"
 
 [markup]
   [markup.goldmark]
@@ -127,8 +127,8 @@ url = "https://github.com/songlaa/iac-security-training"
 
 [[params.links.user]]
 name = "LinkedIn"
-icon = "fab fa-linkedin-in"
-url = "https://linkedin.com/gabriel-graf-6b6446319/"
+icon = "fab fa-"
+url = "https://www.linkedin.com/in/gabriel-graf-6b6446319"
 
 [module]
   [module.hugoVersion]

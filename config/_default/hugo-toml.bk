@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "iac security Training"
+title = "IaC security Training"
 relativeURLs=true
 
 enableGitInfo = true

@@ -45,6 +45,35 @@ ls -al
 
 Now you should see a local file named `foobar.tfstate` containing the Terraform state.
 
+A common process for cloud infrastructure is to store the terraform state into to cloud storage (S3 Buckets etc.) Here is an example how to define such a backend with Azure
+
+```
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~>3.0"
+    }
+  }
+  backend "azurerm" {
+      resource_group_name  = "tfstate"
+      storage_account_name = "<storage_account_name>"
+      container_name       = "tfstate"
+      key                  = "terraform.tfstate"
+  }
+
+}
+
+provider "azurerm" {
+  features {}
+}
+
+resource "azurerm_resource_group" "state-demo-secure" {
+  name     = "state-demo"
+  location = "westeurope"
+}
+```
+
 ## Step {{% param sectionnumber %}}.2: List all managed resources
 
 Terraform has builtin commands to interact with the state.

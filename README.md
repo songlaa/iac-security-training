@@ -1,4 +1,4 @@
-# iac security Training
+# IaC security Training
 
 ## Content Sections
 
