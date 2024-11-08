@@ -5,12 +5,12 @@ sectionnumber: 5.7
 ---
 
 
-In a previous module in the CAS you created a (free Azure Account)[[text](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account)].
+In a previous module in the CAS you created a [free Azure Account](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account).
 If you have still some free credit on it we can use that to create an Azure Key Vault. The pricing for it you find [here](https://azure.microsoft.com/en-us/pricing/details/key-vault/):
 
 ## Task {{% param sectionnumber %}}.1: Create files to provision a Key Vault
 
-Create a new directory
+We start again by creating a new directory:
 
 ```bash
 mkdir $LAB_ROOT/advanced/keyvault

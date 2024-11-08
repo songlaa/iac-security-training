@@ -10,13 +10,12 @@ Please make sure you completed [the setup](../../setup/) before you continue wit
 
 ## First Steps
 
-Start your IDE in an empty project directory and launch a UNIX shell.  
+Go to the root of your webshell (probably /home/project).
 
-The upcoming labs will always refer to the root folder of your exercises. Store it in an environment variable
-to access it quicker:
+The upcoming labs will always refer to the root folder of your exercises. Store it in an environment variable to access it quicker:
 
 ```bash
-export LAB_ROOT=`pwd`
+export LAB_ROOT=/home/project
 ```
 
 Now create a new directory:
