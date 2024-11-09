@@ -114,7 +114,7 @@ Create a file named `variables.tf` and insert the following code:
 variable "resource_group_location" {
   type        = string
   description = "Location for all resources."
-  default     = "eastus"
+  default     = "westeurope"
 }
 
 variable "resource_group_name_prefix" {

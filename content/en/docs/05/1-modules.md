@@ -98,3 +98,10 @@ terraform apply
 
 We instantiate the `random_file` module two times and specify different parameters. The output `filenames` prints
 the randomly generated filenames.
+
+## Step {{% param sectionnumber %}}.2: (Advanced) Module Interaction
+
+To show module interaction do the following:
+
+* extend the existing module to also output the random pet name
+* create a second module which takes these two pet names and puts them in a file named zoo.txt
